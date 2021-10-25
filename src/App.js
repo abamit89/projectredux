@@ -1,14 +1,13 @@
 
 import './App.css';
+import HomeContainer from './containers/HomeContainer';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        
-          Learn React Redux
-        
-      </header>
+
+        <HomeContainer/>
+      
     </div>
   );
 }
